@@ -74,7 +74,7 @@ setup(
     install_requires=[
         # Define sub-dependencies due to pip dependency resolution bug
         # https://github.com/pypa/pip/issues/988
-        "urllib3>=2.2.2",
+        "urllib3",
         # Actual project dependencies
         "deprecation>=2.1.0,<3.0.0",
         "paho-mqtt>=2.0.0",
