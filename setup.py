@@ -74,12 +74,12 @@ setup(
     install_requires=[
         # Define sub-dependencies due to pip dependency resolution bug
         # https://github.com/pypa/pip/issues/988
-        "urllib3",
+        "urllib3>=1.26.5,<1.27",
         # Actual project dependencies
         "deprecation>=2.1.0,<3.0.0",
         "paho-mqtt>=2.0.0",
         "requests>=2.32.3,<3.0.0",
-        "requests-unixsocket2>=0.4.2b0",
+        "requests-unixsocket>=0.1.5,<1.0.0",
         "janus",
         "PySocks",
         "typing_extensions",
